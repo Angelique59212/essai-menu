@@ -35,12 +35,16 @@ body {
     }
 
     .menu > ul {
-        text-align: left;
-        margin: 0;
+        display: none;
     }
 
     .menu > i:first-child {
-        display: inline-block;
+        display: block;
         padding: 1.2rem;
+    }
+
+    .menu:hover ul {
+        display: inline-block;
+        text-align: left;
     }
 }
